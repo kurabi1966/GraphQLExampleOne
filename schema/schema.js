@@ -112,7 +112,11 @@ const Mutation = new GraphQLObjectType({
       },
       resolve(parentValue, { id, firstName, age }) {
         return axios
-          .patch(`http://localhost:3000/users/${id}`, { firstName, age })
+          .patch(`http://localhost:3000/users/${id}`, {
+            firstName,
+            age,
+            companyId,
+          })
           .then((res) => res.data);
       },
     },
