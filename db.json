@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "23",
+      "firstName": "Bill",
+      "age": 20,
+      "companyId": "1"
+    },
+    {
+      "id": "47",
+      "firstName": "Samantha",
+      "age": 23,
+      "companyId": "2"
+    },
+    {
+      "id": "112",
+      "firstName": "Ali Husain",
+      "age": 44,
+      "companyId": "2"
+    },
+    {
+      "id": "55",
+      "firstName": "Shams",
+      "age": 53,
+      "companyId": "1"
+    },
+    {
+      "id": "15",
+      "firstName": "Yasser",
+      "age": 44,
+      "companyId": "2"
+    },
+    {
+      "id": "33",
+      "firstName": "Omar",
+      "age": 22,
+      "companyId": "3"
+    },
+    {
+      "firstName": "Muhanned",
+      "age": 17,
+      "id": "nw9MQVf"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "iPhone"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "Search"
+    },
+    {
+      "id": "3",
+      "name": "Amazon",
+      "description": "eCommerce"
+    }
+  ]
+}
